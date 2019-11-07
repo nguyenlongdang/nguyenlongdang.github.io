@@ -1,4 +1,8 @@
-*{margin: 0; padding: 0;}  
+*{margin: 0; padding: 0; text-align: center;}  
 .thongtin b{
 	color: red;
+}
+.anh-ca-nhan img{
+	width: 50%;
+	height: 500px;
 }
