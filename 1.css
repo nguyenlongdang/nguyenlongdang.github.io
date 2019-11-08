@@ -1,8 +1,123 @@
-*{margin: 0; padding: 0; text-align: center;}  
-.thongtin b{
-	color: red;
+*{margin: 0; padding: 0;}  
+#header{
+	height: 100px;
 }
-.anh-ca-nhan img{
+#header .logo{
+	margin: 21px 0px;
+}
+#header .menu{
+	padding: 21px 0px;
+}
+.menu ul li {
+	padding-left: 21px;
+}
+
+/*end header*/
+
+.about{
+	height: 700px;
+	background: #e9685f;
+	position: relative;
+}
+.about::before{
+	content: "";
+	position: absolute;
+	top:0;
+	left: 0;
+	background: #e4555b;
 	width: 50%;
-	height: 500px;
+	height: 700px;	
+}
+
+.bentrong{
+	position: relative;
+	z-index: 3;
+}
+.bentrong img{
+	margin: 171px 0px 50px 0px;
+	height: 300px;
+	width: 300px;
+
+}
+/*ngoi sao*/
+.icon-star{font-size: 30px;position: relative; opacity: 0.6}
+.icon-star::after{
+	content: "____________________";
+	position: absolute;
+	bottom: 14px;
+	left: 250px;
+
+}
+.icon-star::before{
+	content: "____________________";
+	position: absolute;
+	bottom: 14px;
+	right: 250px;
+
+}
+.lylich b{
+	line-height: 50px;
+}
+.image{
+	height: 400px;
+	width: 400px;
+}
+.nut-image{margin: 25px 90px 0px 100px;}
+
+
+.skill .dai{
+	background: #f0f0f0;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+}
+.skill .ngan.html-css{
+	background: #fec200;
+	height: 30px;
+	padding-left: 20px;
+	width: 95%;
+}
+.skill .ngan.jquery{
+	background: #fec200;
+	height: 30px;
+	padding-left: 20px;
+	width: 80%;
+}
+
+.skill .ngan.mysql{
+	background: #fec200;
+	height: 30px;
+	padding-left: 20px;
+	width: 60%;
+}
+.skill .ngan.php{
+	background: #fec200;
+	height: 30px;
+	padding-left: 20px;
+	width: 70%;
+}
+
+.skill .ngan.angular{
+	background: #fec200;
+	height: 30px;
+	padding-left: 20px;
+	width: 30%;
+}
+.skill .ngan.javascript{
+	background: #fec200;
+	height: 30px;
+	padding-left: 20px;
+	width: 30%;
+}
+.skill .ngan.english{
+	background: #fec200;
+	height: 30px;
+	padding-left: 20px;
+	width: 50%;
+}
+.skill .ngan.japanese{
+	background: #fec200;
+	height: 30px;
+	padding-left: 20px;
+	width: 20%;
 }
