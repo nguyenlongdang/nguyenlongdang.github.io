@@ -112,3 +112,40 @@ h5.card-title{
 }
 
 /* responsive 1024 */
+
+@media screen and (max-width: 568px){
+  .header .logo{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+  }
+  .header .info{
+    text-align: center;
+  }
+  .header .logo img{
+    border-radius: 50%;
+  }
+  .header .name{
+    height: 200px;
+    text-align: center;
+  }
+  .name .full-name{
+    text-transform: uppercase;
+    font-size: 25pt;
+    font-weight: bold;
+  }
+  .name .job{
+    color: #f39501;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .title-images{
+    background: #197D7D;
+    height: 100%;
+    widows: 100%;
+    color: #fff;
+    font-size: 26px;
+  
+  }
+}
+/* responsive 568 */
