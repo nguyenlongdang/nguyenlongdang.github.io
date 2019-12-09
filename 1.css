@@ -78,3 +78,38 @@ h5.card-title{
   opacity: 0.8;
 }
 /* nut back-to-top */
+
+
+@media screen and (max-width: 1024px){
+  .header .logo{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+  }
+  .header .info{
+    text-align: center;
+  }
+  .header .logo img{
+    border-radius: 50%;
+  }
+  .header .name{
+    height: 200px;
+    text-align: center;
+  }
+  .name .full-name{
+    text-transform: uppercase;
+    font-size: 25pt;
+    font-weight: bold;
+  }
+  .name .job{
+    color: #f39501;
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
+/* responsive 1024px */
+
+@media screen and (max-width: 1024px){
+
+}
