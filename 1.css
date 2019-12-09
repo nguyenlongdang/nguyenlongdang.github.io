@@ -1,165 +1,80 @@
-*{margin: 0;padding: 0;}
-body{background: #f0f0f0;}
-
-
-.collapse.navbar-collapse .navbar-nav .nav-item .nav-link{
-	text-transform: uppercase;
+.header{
+  min-height: 300px;
+  background: #197D7D;
+  padding: 30px 0px;
+  color: #fff;
 }
 
-.collapse.navbar-collapse .navbar-nav .nav-item .nav-link:hover{
-	background: rgb(95, 26, 137);
-	color: #fff;
+.header .logo{
+  width: 300px;
+  height: 200px;
 }
-.collapse.navbar-collapse .navbar-nav .nav-item.active .nav-link{
-	background: rgb(95, 26, 137);
-	color: #fff;
+.header .logo img{
+  border-radius: 50%;
 }
-.danhthiep{
-	background: red;
-	height: 400px;
+.icon-info .fa{
+  width: 20px;
+  height: 35px;
+  color: #f39501;
 }
-.info-card{background: rgb(95, 26, 137);color: #fff;}
+.header .name{
+  height: 200px;
+}
+.name .full-name{
+  text-transform: uppercase;
+  font-size: 30pt;
+  font-weight: bold;
+}
+.name .job{
+  color: #f39501;
+  font-size: 25px;
+  font-weight: bold;
+}
+/* end header */
+.content .title-content{
+  text-transform: uppercase;
+  font-size: 27pt;
+  color:  #197D7D;
+}
+.label-skill{
+  text-transform: uppercase;
+}
+.jumbotron{
+  background: #197D7D;
+  color: #fff;
+}
+.title-images{
+  background: #197D7D;
+  height: 100%;
+  widows: 100%;
+  color: #fff;
+  font-size: 30px;
 
-.info-card .card-title{
-	font-size: 26pt;
-	line-height: 30px;
 }
-
-.image-card {
-	background: url(vendor/3.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+h5.card-title{
+  font-size: 24px;
 }
-
-.duongcheo{
-	top: 0;
-	right: -100px;
-    z-index: 1;
-    position: absolute;
-    border-style: solid;
-    border-width: 400px 0 0 100px;
-    border-color: rgba(223, 50, 50, 0) transparent transparent  rgb(95, 26, 137);
-}
-
-.icon-card .btn{
-	width: 37px;
-	height: 37px;
-	border-radius: 50%;
-}
-/*end header*/
-
-
-
-.education img,.skill img,.kinhnghiem img,.interest img{
-	padding: 10px;
-	background: #f7f7f7;
-	width: 66px;
-	height: 66px
-	border: 1px solid red;
-}
-.education h4,.skill h4,.kinhnghiem h4,.interest h4{
-	font-size: 28pt;
-	text-transform: uppercase;
-}
-
-.info-education{
-	padding: 20px;
-}
-
-.card{
-	border-left: 5px solid rgb(95, 26, 137);
-}
+/* end content */
 
 
-/*timeline*/
-.timeline-block{
-	position: relative;
-}
-.timeline-tieude{
-	position: absolute;
-	left: 38%;
-	border-radius: 50%;
-	background: rgb(95, 26, 137);
-	width: 50px;
-	height: 50px;
-	color: #fff;
-	font-size: 20pt;
-}
-.timeline-block.trai::after {
-    content: '';
-    position: absolute;
-    top: 23px;
-    bottom: 23px;
-    left: 40.3%;
-    width: 10.5%;
-    height: 4px;
-    opacity: 0.3;
-    background: rgb(95, 26, 137);
-}
-.timeline-block.phai::after {
-    content: '';
-    position: absolute;
-    top: 23px;
-    bottom: 23px;
-   	left: 49.3%;
-    width: 10.5%;
-    height: 4px;
-    opacity: 0.3;
-    background: rgb(95, 26, 137);
-}
-.timeline-block::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 23px;
-    left: 50%;
-    height: 99.5%;
-    width: 4px;
-    opacity: 0.3;
-    background: rgb(95, 26, 137);
-}
-
-.timeline-block.end-timeline::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 23px;
-    left: 50%;
-    height: 10%;
-    width: 4px;
-    opacity: 0.3;
-    background: rgb(95, 26, 137);
-}
-
-/* end timeline*/
 
 
-/*table skill*/
-.table-skill{
-	background: rgb(95, 26, 137);
-	height: 360px;
-	margin-top: 70px;
-}
-.all-skill{
-	color: #fff;
-}
-.nhanh-skill{
-	margin-bottom: 30px;
-	margin-top: 40px;
-}
 
-/*end skill*/
-
-/*sothich*/
-.title-sothich{
-	background: #fff;
-	
-	height:260px;
-	margin-top: 50px;
+.back-to-top{
+  background: #f0f0f0;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 40px;
+  padding:8px;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  cursor: pointer;
+  z-index: 100;
 }
-
-.icon-sothich{
-	background: rgb(95, 26, 137);
+.back-to-top:hover{
+  opacity: 0.8;
 }
-/*end sothich*/
-/*end content*/
+/* nut back-to-top */
