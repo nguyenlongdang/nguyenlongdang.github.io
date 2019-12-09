@@ -147,5 +147,19 @@ h5.card-title{
     font-size: 26px;
   
   }
+  .back-to-top{
+    background: #f0f0f0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    padding:5px;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    cursor: pointer;
+    z-index: 100;
+  }
 }
 /* responsive 568 */
