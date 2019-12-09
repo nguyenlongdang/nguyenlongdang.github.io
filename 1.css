@@ -20,6 +20,9 @@
 .header .name{
   height: 200px;
 }
+.target ul li {
+  list-style-type: none;
+}
 .name .full-name{
   text-transform: uppercase;
   font-size: 30pt;
@@ -108,8 +111,4 @@ h5.card-title{
   }
 }
 
-/* responsive 1024px */
-
-@media screen and (max-width: 1024px){
-
-}
+/* responsive 1024 */
