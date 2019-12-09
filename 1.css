@@ -33,11 +33,41 @@
   font-size: 25px;
   font-weight: bold;
 }
+.icon-contact{
+  margin-top: 20px;
+}
+.btn-floating, .btn-floating i {
+  color: 
+  #fff;
+  line-height: 37px;
+  display: inline-block;
+}
+
+.indigo {
+  background-color: 
+  #3f51b5 !important;
+}
+.btn-floating i {
+  width: inherit;
+  text-align: center;
+}
+.btn-floating {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 37px;
+  height: 37px;
+  padding: 0;
+  border-radius: 50%;
+  transition: .3s;
+  cursor: pointer;
+}
 /* end header */
 .content .title-content{
   text-transform: uppercase;
   font-size: 27pt;
   color:  #197D7D;
+  font-family: 'Raleway', sans-serif;
 }
 .label-skill{
   text-transform: uppercase;
@@ -82,22 +112,58 @@ h5.card-title{
 }
 /* nut back-to-top */
 
+.inter-even{
+  background: #197D7D;
+  color: #fff;
+  
+}
+.inter-odd{
+  background: #f9f9f9;
+  color: #197D7D;
+
+}
+.icon-inter{
+  height: 100px;
+  
+}
+.card-body .card-text.info-inter{
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
+.inter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.row.row-edit{
+  margin: 0;
+  padding: 0;
+}
+
+.inter .fa{
+  font-size: 29px;
+  margin-bottom: 10px;
+}
+
+
+
+/* end phan so thích */
 
 @media screen and (max-width: 1024px){
   .header .logo{
     width: 100%;
     height: 200px;
-    text-align: center;
+
   }
-  .header .info{
-    text-align: center;
-  }
+
   .header .logo img{
     border-radius: 50%;
   }
   .header .name{
     height: 200px;
-    text-align: center;
+
   }
   .name .full-name{
     text-transform: uppercase;
@@ -109,6 +175,9 @@ h5.card-title{
     font-size: 25px;
     font-weight: bold;
   }
+  .time-education{
+    font-size: 22px;
+  }
 }
 
 /* responsive 1024 */
@@ -117,21 +186,17 @@ h5.card-title{
   .header .logo{
     width: 100%;
     height: 200px;
-    text-align: center;
   }
-  .header .info{
-    text-align: center;
-  }
+ 
   .header .logo img{
     border-radius: 50%;
   }
   .header .name{
     height: 200px;
-    text-align: center;
   }
   .name .full-name{
     text-transform: uppercase;
-    font-size: 25pt;
+    font-size: 17pt;
     font-weight: bold;
   }
   .name .job{
@@ -161,5 +226,13 @@ h5.card-title{
     cursor: pointer;
     z-index: 100;
   }
+  .inter{
+    padding: 15px;
+  }
+  .time-education{
+    font-size: 20px;
+    padding: 20px;
+  }
 }
 /* responsive 568 */
+
